@@ -18,7 +18,7 @@
   <nav class="navbar navbar-expand-lg navbar-light">
     <div class="container-fluid">
       <a class="navbar-brand d-md-flex" href="index.html">
-        <div class="ms-5 img-logo">
+        <div class="ms-5 img-logo w-100">
           <i class="fab fa-instagram"></i>Instagram
         </div>
       </a>
@@ -27,27 +27,26 @@
         aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end me-5" id="navbarNavDropdown">
+      
+      <div class="collapse navbar-collapse  justify-content-end w-0" id="navbarNavDropdown">
+        <!-- Botón del modal -->
+      <button type="button" class="btn btn-success d-flex float-right" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+        Create a new post
+      </button>
         <ul class="navbar-nav">
           <li class="nav-item mx-4">
-            <a class="nav-link active c-blanco ahover" aria-current="page" href="">
 
-              <!-- Botón del modal -->
-              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                Create a new post
-              </button>
-            </a>
           </li>
           <!-- Dropdown -->
-          <li class="nav-item mx-4 dropdown me-5">
+          <li class="nav-item mx-4 dropdown me-5 pe-5">
             <a class="nav-link dropdown-toggle ahover" href="#" id="navbarDropdownMenuLink" role="button"
               data-bs-toggle="dropdown" aria-expanded="false">
               <i class="fas fa-cog fa-2x"></i>
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item pe-1 ps-1" href="#">Action</a></li>
-              <li><a class="dropdown-item pe-1 ps-1" href="#">Another action</a></li>
-              <li><a class="dropdown-item pe-1 ps-1" href="#">Something else here</a></li>
+            <ul class="dropdown-menu me-5" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item justify-content-start ps-2" href="#">Action</a></li>
+              <li><a class="dropdown-item justify-content-start ps-2" href="#">Another action</a></li>
+              <li><a class="dropdown-item justify-content-start ps-2" href="#">Something else here</a></li>
             </ul>
           </li>
         </ul>
@@ -86,31 +85,32 @@
           class="fas fa-th fa"></i></button>
     </li>
     <li class="nav-item" role="presentation">
-      <button class="nav-link bg-secondary" id="pills-profile-tab" data-bs-toggle="pill"
-        data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
+      <button class="nav-link bg-secondary m" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile"
+        type="button" role="tab" aria-controls="pills-profile" aria-selected="false"><i
           class="fas fa-stop"></i></button>
     </li>
   </ul>
 
   <!-- Pills 1 -->
   <div class="tab-content" id="pills-tabContent">
-    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+    <div class="tab-pane fade show active pb-4 ps-5" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
       <!-- Grid Photos -->
       <div class="container">
         <div class="row">
-          <div class="col-md col-xs-12 mt-4"> 
-            <img src="https://www.anipedia.net/wp-content/uploads/Los-20-animales-mas-bonitos-del-mundo.jpg" 
-            style="width: 400px; height: 247.50px;" alt="Colibrí volando">
+          <div class="col-md col-xs-12 mt-4">
+            <img class="img-fluid"
+              src="https://loving-london.com/es/wp-content/uploads/2019/09/the-mousetrap-london-190213171519002-400x200.jpg"
+              alt="Colibrí volando">
           </div>
-          <div class=" col-md col-xs-12 mt-4" >
-            <img
-              src="https://www.tiendanimal.es/articulos/wp-content/uploads/2021/05/Animales-mas-bonitos-del-mundo-1200x900.jpg"
-              style="width: 400px; height: 247.50px;" alt="Oso Panda rojo" >
+          <div class=" col-md col-xs-12 mt-4">
+            <img class="img-fluid"
+              src="https://images.carriercms.com/image/upload/w_400,ar_2.0,c_lfill,q_auto,f_auto/v1603751472/carrier/commercial-hvac-europe/cities/carrier-london-in-winter_sq.jpg"
+              alt="Oso Panda rojo">
           </div>
           <div class="col-md col-xs-12 mt-4">
-            <img src="https://www.almanimal.com/wp-content/uploads/2021/04/animales-bonitos.jpg"
-            style="width: 400px; height: 247.50px;" alt="Zorro del desierto">
+            <img class="img-fluid" src="https://s1.kaercher-media.com/media/image/file/266/d3/london-eye.webp"
+              alt="Zorro del desierto">
           </div>
         </div>
       </div>
@@ -118,16 +118,17 @@
       <div class="container">
         <div class="row">
           <div class="col-md col-xs-12 mt-4">
-            <img src="http://www.animalesextremos.com/Imagenes/zorros-animales-mas-bonitos-del-mundo.jpg"
-            style="width: 400px; height: 247.50px;" alt="Zorro de las nieves" >
+            <img class="img-fluid"
+              src="https://s1.kaercher-media.com/media/image/file/264/d3/london-eye.webp"
+              alt="Zorro de las nieves">
           </div>
           <div class="col-md col-xs-12 mt-4">
-            <img src="http://www.animalesextremos.com/Imagenes/animales-bonitos-delfines.jpg" alt="Deslfín"
-              style="width: 400px; height: 247.50px;">
+            <img class="img-fluid" src="https://www.albanyschool.com/empresas/wp-content/uploads/2017/01/telephone-london-red-england-163090-400x200.jpeg"
+              alt="Deslfín">
           </div>
           <div class="col-md col-xs-12 mt-4">
-            <img src="https://www.anipedia.net/imagenes/fotos-de-animales-bonitos.jpg" alt="Gacelas en la sabana"
-              style="width: 400px; height: 247.50px;">
+            <img class="img-fluid" src="https://www.garringtonlondon.co.uk/wp-content/uploads/2021/01/HEADER-Sunset-in-London-over-Fullham-L-shutterstock_192514325-400x200.jpg"
+              alt="Gacelas en la sabana">
           </div>
         </div>
       </div>
@@ -135,17 +136,18 @@
       <div class="container">
         <div class="row">
           <div class="col-md col-xs-12 mt-4">
-            <img
-              src="https://cdn.shopify.com/s/files/1/1151/6786/files/flamenco_rosa_1_7_1024x1024.jpg?2191410226190510653"
-              alt="Flamencos en el agua" style="width: 400px; height: 247.50px;">
+            <img class="img-fluid"
+              src="https://static.vecteezy.com/system/resources/thumbnails/002/717/300/small/london-neon-sign-vector.jpg"
+              alt="Flamencos en el agua">
           </div>
           <div class="col-md col-xs-12 mt-4">
-            <img src="https://supercurioso.com/wp-content/uploads/2018/05/Animales-m%C3%A1s-bonitos-del-mundo-909.jpg"
-              alt="Orca saltando" style="width: 400px; height: 247.50px;">
+            <img class="img-fluid"
+              src="https://www.urban-hub.com/wp/wp-content/uploads/2020/01/London_Tranformation_KeyVisual-400x200.jpg"
+              alt="Orca saltando">
           </div>
           <div class="col-md col-xs-12 mt-4">
-            <img src="http://www.animalesextremos.com/Imagenes/los-animales-mas-bonitos-del-mundo.jpg" alt="Águila"
-              style="width: 400px; height: 247.50px;">
+            <img class="img-fluid" src="https://lh3.googleusercontent.com/proxy/PJuJNddb885O7nQ-XcxjqpwQOjA0yX7-NC8S8838O4iTfhXnxA4Dr6Ne3Z-6eAoTenHFXrvMTDKP5fnRTSlHhqy1VYD5SIF1YBGq1Nk"
+              alt="Águila">
           </div>
         </div>
       </div>
@@ -159,7 +161,7 @@
             <h2 class="h2-pills2 justify-content-start w-100 float-left p-2">My first photo</h2>
             <p class="p-pills2 justify-content-end pe-1 pt-1 c-gris d-flex">12/15</p>
           </div>
-          <img src="https://www.anipedia.net/wp-content/uploads/Los-20-animales-mas-bonitos-del-mundo.jpg"
+          <img src="https://loving-london.com/es/wp-content/uploads/2019/09/the-mousetrap-london-190213171519002-400x200.jpg"
             class="card-img-top" alt="Colibrí volando">
           <div class="card-body p-2">
             <h5 class="card-title d-flex justify-content-start">23 Likes</h5>
@@ -177,7 +179,7 @@
             <p class="p-pills2 justify-content-end pe-1 pt-1 c-gris d-flex">12/15</p>
           </div>
           <img
-            src="https://www.tiendanimal.es/articulos/wp-content/uploads/2021/05/Animales-mas-bonitos-del-mundo-1200x900.jpg"
+            src="https://images.carriercms.com/image/upload/w_400,ar_2.0,c_lfill,q_auto,f_auto/v1603751472/carrier/commercial-hvac-europe/cities/carrier-london-in-winter_sq.jpg"
             class="card-img-top" alt="Panda Rojo">
           <div class="card-body p-2">
             <h5 class="card-title d-flex justify-content-start">23 Likes</h5>
@@ -194,7 +196,7 @@
             <h2 class="h2-pills2 justify-content-start w-100 float-left p-2">My first photo</h2>
             <p class="p-pills2 justify-content-end pe-1 pt-1 c-gris d-flex">12/15</p>
           </div>
-          <img src="https://www.almanimal.com/wp-content/uploads/2021/04/animales-bonitos.jpg" class="card-img-top"
+          <img src="https://s1.kaercher-media.com/media/image/file/266/d3/london-eye.webp" class="card-img-top"
             alt="Zorro del desierto">
           <div class="card-body p-2">
             <h5 class="card-title d-flex justify-content-start">23 Likes</h5>
@@ -211,7 +213,7 @@
             <h2 class="h2-pills2 justify-content-start w-100 float-left p-2">My first photo</h2>
             <p class="p-pills2 justify-content-end pe-1 pt-1 c-gris d-flex">12/15</p>
           </div>
-          <img src="http://www.animalesextremos.com/Imagenes/zorros-animales-mas-bonitos-del-mundo.jpg"
+          <img src="https://s1.kaercher-media.com/media/image/file/264/d3/london-eye.webp"
             class="card-img-top" alt="Zorro de nieve">
           <div class="card-body p-2">
             <h5 class="card-title d-flex justify-content-start">23 Likes</h5>
@@ -228,7 +230,7 @@
             <h2 class="h2-pills2 justify-content-start w-100 float-left p-2">My first photo</h2>
             <p class="p-pills2 justify-content-end pe-1 pt-1 c-gris d-flex">12/15</p>
           </div>
-          <img src="http://www.animalesextremos.com/Imagenes/los-animales-mas-bonitos-del-mundo.jpg"
+          <img src="https://www.albanyschool.com/empresas/wp-content/uploads/2017/01/telephone-london-red-england-163090-400x200.jpeg"
             class="card-img-top" alt="Águila">
           <div class="card-body p-2">
             <h5 class="card-title d-flex justify-content-start">23 Likes</h5>
